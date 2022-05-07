@@ -1,8 +1,8 @@
 package com.idat.microservicioidatio.controller;
 
-import com.idat.microservicioidatio.model.Estudiante;
+
 import com.idat.microservicioidatio.model.Profesor;
-import com.idat.microservicioidatio.service.EstudianteService;
+
 import com.idat.microservicioidatio.service.ProfesorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
