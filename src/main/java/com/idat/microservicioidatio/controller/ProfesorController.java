@@ -55,7 +55,7 @@ public class ProfesorController {
     public ResponseEntity<Void> editar(@RequestBody Profesor profesor){
         Profesor profe = service.ProfesorbyId(profesor.getIdProfesor());
         if(profe != null) {
-            service.editarProfesor(profe);
+            service.editarProfesor(profesor);
             return new ResponseEntity<Void>(HttpStatus.OK);
         }
         return new ResponseEntity<Void>(HttpStatus.NOT_FOUND);

@@ -53,7 +53,7 @@ public class EstudianteController {
     public ResponseEntity<Void> editar(@RequestBody Estudiante estudiante){
         Estudiante estudent = service.EstudiantebyId(estudiante.getIdEstudiante());
         if(estudent != null) {
-            service.editarEstudiante(estudent);
+            service.editarEstudiante(estudiante);
             return new ResponseEntity<Void>(HttpStatus.OK);
         }
         return new ResponseEntity<Void>(HttpStatus.NOT_FOUND);
