@@ -1,6 +1,5 @@
 package com.idat.microservicioidatio;
 
-import com.idat.microservicioidatio.model.Estudiante;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

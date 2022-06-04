@@ -1,0 +1,1 @@
+insert into cliente(apellido_cliente,direccion,nombre_cliente,nrocelular)values ("palma","av 3232","arnie","9393939")
